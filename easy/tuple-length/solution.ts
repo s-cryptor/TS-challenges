@@ -1,1 +1,1 @@
-type Length<T extends readonly Array<any>> = T["length"]
+type Length<T extends ReadonlyArray<any>> = T["length"]
